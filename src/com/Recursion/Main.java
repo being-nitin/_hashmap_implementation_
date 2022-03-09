@@ -22,6 +22,11 @@ public class Main {
 
         for(Map.Entry<String,Integer> e:map.entrySet()){
             System.out.println(e);
+
+            // to get the keys of map
+            System.out.println(e.getKey());
+
+
         }
 
     }
