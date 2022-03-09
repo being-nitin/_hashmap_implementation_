@@ -25,8 +25,8 @@ public class Main {
 
             // to get the keys of map
             System.out.println(e.getKey());
-
-
+            // to get the values of map
+            System.out.println(e.getValue());
         }
 
     }
