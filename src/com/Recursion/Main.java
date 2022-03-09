@@ -15,7 +15,16 @@ public class Main {
     map.put("two",1);
     map.put("three",1);
     map.put("four",1);
-        System.out.println(map);
+    System.out.println(map);
+
+
+        // iteration in map
+
+        for(Map.Entry<String,Integer> e:map.entrySet()){
+            System.out.println(e);
+        }
+
     }
+
 
 }
