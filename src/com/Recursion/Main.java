@@ -27,7 +27,10 @@ public class Main {
             System.out.println(e.getKey());
             // to get the values of map
             System.out.println(e.getValue());
+
         }
+        // keyset() method added.
+        System.out.println(map.keySet());
 
     }
 
